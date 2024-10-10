@@ -3,8 +3,6 @@ import { Poppins } from 'next/font/google'
 import { ClerkProvider } from '@clerk/nextjs'
 
 import './globals.css'
-import Header from '@/components/shared/Header'
-import Footer from '@/components/shared/Footer'
 
 const poppins = Poppins({
   subsets: ['latin'],
@@ -13,8 +11,8 @@ const poppins = Poppins({
 })
 
 export const metadata: Metadata = {
-  title: 'AlgoEvent',
-  description: 'AlgoEvent is a platform for  Technical event management.',
+  title: 'Evently',
+  description: 'Evently is a platform for event management.',
   icons: {
     icon: '/assets/images/logo.svg'
   }
