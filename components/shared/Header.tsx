@@ -9,13 +9,14 @@ const Header = () => {
   return (
     <header className="w-full border-b">
       <div className="wrapper flex items-center justify-between">
-        <Link href="/" className="w-36">
-          <Image 
-            src="/assets/images/logo.svg" width={128} height={38}
-            alt="Algoevent logo" 
+        <Link href="/" className="flex items-center justify-center w-40 h-10 overflow-hidden">
+          <Image
+            src="/assets/images/logo1.svg"
+            alt="Algoevent logo"
+            width={300}
+            height={400}
           />
         </Link>
-
         <SignedIn>
           <nav className="md:flex-between hidden w-full max-w-xs">
             <NavItems />
